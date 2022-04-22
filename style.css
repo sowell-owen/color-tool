@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter';
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6563FF;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+input {
+    margin-bottom: 1.2rem;
+    width: 65%;
+}
+
+input[type="text"] {
+    padding: 0.4rem 0.7rem;
+    border-radius: 3px;
+    border: none;
+    font-size: 1rem;
+}
+
+.container {
+    padding: 1rem 2rem;
+    width: 22%;
+    background-color: #171d32;
+    border-radius: 3%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.flex-item * {
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    margin: 1.5rem;
+    color: #ffffff;
+}
+
+.hex-label {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.box {
+    height: 5.5rem;
+    width: 100%;
+    background-color: #3461cb;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+}
+
+.toggle-text {
+    font-size: 1.5rem;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem;
+    justify-content: space-between;
+}
+
+.toggle>p {
+    font-size: 1.75rem;
+}
+
+.toggle-btn {
+    height: 1.8rem;
+    width: 5.6rem;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 0.3rem;
+    margin: 0 0.625rem;
+}
+
+.inner-circle {
+    width: 1.9rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    background-color: white;
+    transition: all 450ms;
+}
+
+.toggle-btn.toggled>.inner-circle {
+    transform: translateX(3.75rem);
+    background-color: #333;
+}
+
+.unselected {
+    opacity: 0.2;
+}
+
+.slider-box {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+    align-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.slider {
+    width: 88%;
+}
+
+#sliderText,
+.slider {
+    margin: auto;
+}
