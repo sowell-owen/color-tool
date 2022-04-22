@@ -1,2 +1,3 @@
 # Color Tool 💻
-![Preview](https://user-images.githubusercontent.com/65121631/164782846-593ed584-ae86-4d0f-9ae6-edacf810db17.png)
+![Preview](https://user-images.githubusercontent.com/65121631/164782990-d76cb748-2ccb-468c-a583-6080484d1821.png)
+
