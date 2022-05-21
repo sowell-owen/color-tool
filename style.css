@@ -22,7 +22,7 @@ label {
 
 input {
     margin-bottom: 1.2rem;
-    width: 65%;
+    width: 275px;
 }
 
 input[type="text"] {
@@ -34,7 +34,7 @@ input[type="text"] {
 
 .container {
     padding: 1rem 2rem;
-    width: 22%;
+    width: 425px;
     background-color: #171d32;
     border-radius: 3%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -53,7 +53,7 @@ input[type="text"] {
 
 .title {
     text-align: center;
-    margin: 1.5rem;
+    margin-top: 1.5rem;
     color: #ffffff;
 }
 
@@ -79,7 +79,7 @@ input[type="text"] {
 .toggle {
     display: flex;
     align-items: center;
-    margin: 1.5rem;
+    margin-top: 1.5rem;
     justify-content: space-between;
 }
 
@@ -128,4 +128,57 @@ input[type="text"] {
 #sliderText,
 .slider {
     margin: auto;
+}
+
+@media (max-width: 560px) {
+    .container {
+        width: 200px;
+    }
+
+    .hex-label {
+        font-size: 1.5rem;
+    }
+
+    input {
+        width: 170px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .toggle>p {
+        font-size: 1.25rem;
+    }
+
+    .toggle-btn {
+        height: .8rem;
+        width: 2.4rem;
+
+    }
+
+    .inner-circle {
+        width: .9rem;
+        height: .8rem;
+
+    }
+
+    .toggle-btn.toggled>.inner-circle {
+        transform: translateX(1.3rem);
+        background-color: #333;
+    }
+
+    .slider {
+        width: 150px;
+    }
+
+    #sliderText {
+        font-size: 1.25rem;
+        margin-right: 5px;
+    }
+
+    .box {
+        height: 3.5rem;
+    }
+
 }
